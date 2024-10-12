@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(image/2dfbQb2.jpg) ;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    background:rgba(255, 255, 255, 0.7) ;
+    padding: 50px 60px 80px;
+    text-align: center;
+}
+
+.form-box h1{
+    font-size:40px ;
+    font-weight: bold;
+    margin-bottom:60px ;
+    color:rgb(35, 53, 207);
+    position: relative;
+}
+
+.form-box h1::after{
+    content: '';
+    width: 40px;
+    height: 4px;
+    border-radius: 3px;
+   background: rgb(0, 4, 255);
+   position: absolute;
+   bottom: -12px;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+.input-field{
+    background:rgb(209, 201, 212) ;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: rgb(116, 119, 122);
+}
+
+form p{
+    text-align: left;
+    font-size: 18px;
+}
+
+form a{
+    text-decoration: none;
+    color:rgb(49, 8, 255) ;
+}
+
+.btn-field{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.btn-field button{
+   flex-basis: 40%;
+   background:rgb(43, 9, 239) ;
+   color: #fff;
+   height: 40px;
+   border-radius: 20px;
+   border: 0;
+   cursor: pointer;
+   transition:background 1s;
+
+}
+
+.input-group{
+    height:260px ;
+}
+
+.btn-field button.disable{
+background:rgb(189, 179, 193) ;
+color: #616060;
+}
+
+
+
+
